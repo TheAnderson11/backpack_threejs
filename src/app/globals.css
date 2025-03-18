@@ -1,6 +1,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --gray-background: linear-gradient(180deg, #4A4A4A 0%, #3A3A3A 40%, #2A2A2A 80%, #1E1E1E 100%);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -18,7 +19,7 @@ body {
 
 body {
   color: var(--foreground);
-  background: var(--background);
+  background: var(--gray-background);
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

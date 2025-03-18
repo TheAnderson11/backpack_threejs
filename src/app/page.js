@@ -1,7 +1,7 @@
 'use client'
 import { useState } from 'react';
 import ARButton from './components/ARButton';
-import BackpackConfigurator from './components/BackpackConfigurator';
+import Backpack from './components/Backpack.jsx';
 import QRCodePopup from './components/QRCodePopup';
 import styles from './page.module.css';
 
@@ -12,7 +12,7 @@ export default function Home() {
     <div className={styles.container}>
       <h1>Конфігуратор рюкзака</h1>
 
-      <BackpackConfigurator />
+      <Backpack />
 
       <ARButton />
 
